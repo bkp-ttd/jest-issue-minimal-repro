@@ -12,6 +12,13 @@ have something to do with
 because when I replace that function with a single `process.stderr.write(string)` call the issue
 disappears.
 
+The main features of this minimal repro are:
+
+- `@nx/jest`
+- A failing test
+- Jest is configured with a `summary` reporter with a low enough `summaryThreshold` that it actually
+    prints something
+
 ## Example of how it should look (jest without @nx/jest)
 
 Command:
