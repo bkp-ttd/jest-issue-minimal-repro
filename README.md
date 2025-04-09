@@ -16,11 +16,13 @@ The main features of this minimal repro are:
 
 - `@nx/jest`
 - A failing test
-- Jest is configured with a `summary` reporter with a low enough `summaryThreshold` that it actually
-    prints something
-    - Note that `["default", {"summaryThreshold": 0}]` also works because `default` includes
-        `summary`. The current config produces output that's slightly more consise.
 - Example command using `stdout` redirection
+- The `default` jest reporter is modified with `{"summaryThreshold": 0}` in order to cause the
+    `summary` reporter to be activated at the end of the test.
+    - By default the `default` reporter will trigger the `summary` reporter if you have at least
+        one failing test, and at least 20 test suites. This config option is just an easier way to
+        get some `summary` output.
+    - [Docs for Jest reporters](https://jestjs.io/docs/configuration#reporters-arraymodulename--modulename-options)
 
 ## Example of how it should look (jest without @nx/jest)
 
