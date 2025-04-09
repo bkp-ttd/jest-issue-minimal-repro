@@ -1,0 +1,50 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.7.2",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "jest-issue-minimal-repro": [
+        {
+          "file": ".gitignore",
+          "hash": "7663861978715868291"
+        },
+        {
+          "file": "README.md",
+          "hash": "588016667791724291"
+        },
+        {
+          "file": "jest.config.json",
+          "hash": "14960731923629120809"
+        },
+        {
+          "file": "package.json",
+          "hash": "16610948958064484963",
+          "deps": [
+            "npm:@nx/jest",
+            "npm:jest",
+            "npm:nx"
+          ]
+        },
+        {
+          "file": "project.json",
+          "hash": "10438866258460775250"
+        },
+        {
+          "file": "src/sum.js",
+          "hash": "6060233378415060337"
+        },
+        {
+          "file": "src/sum.test.js",
+          "hash": "10612989431232184033"
+        },
+        {
+          "file": "yarn.lock",
+          "hash": "17865550272280226706"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  }
+}

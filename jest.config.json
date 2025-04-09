@@ -1,0 +1,5 @@
+{
+    "reporters": [
+        ["summary", {"summaryThreshold": 0}]
+    ]
+}
