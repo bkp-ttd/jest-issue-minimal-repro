@@ -7,7 +7,7 @@ This repo is a minimal reproduction of a formatting issue we're seeing with the 
 The issue only happens with `@nx/jest` and not when using `jest` directly. It appears to
 be triggered by redirecting `stdout` to a file. (Note that jest sends most output to `stderr` and so
 redirecting `stdout` has very little impact on what's printed to the terminal). It also seems to
-have something to do withå
+have something to do with
 [this weirdness](https://github.com/jestjs/jest/blob/511ea93c409bb4949f0deba8e998916d30e67ad5/packages/jest-reporters/src/SummaryReporter.ts#L82-L91)
 because when I replace that function with a single `process.stderr.write(string)` call the issue
 disappears.
