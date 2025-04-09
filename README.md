@@ -18,6 +18,7 @@ The main features of this minimal repro are:
 - A failing test
 - Jest is configured with a `summary` reporter with a low enough `summaryThreshold` that it actually
     prints something
+- Example command using `stdout` redirection
 
 ## Example of how it should look (jest without @nx/jest)
 
