@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx test",
-    "startTime": "2025-04-09T21:05:01.010Z",
-    "endTime": "2025-04-09T21:05:01.372Z",
+    "startTime": "2025-04-09T21:27:20.574Z",
+    "endTime": "2025-04-09T21:27:20.927Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "jest-issue-minimal-repro:test",
       "target": "test",
       "projectName": "jest-issue-minimal-repro",
-      "hash": "5165548377276154707",
-      "startTime": "2025-04-09T21:05:01.053Z",
-      "endTime": "2025-04-09T21:05:01.372Z",
+      "hash": "12764176238684678336",
+      "startTime": "2025-04-09T21:27:20.616Z",
+      "endTime": "2025-04-09T21:27:20.926Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

@@ -8,11 +8,11 @@
       "jest-issue-minimal-repro": [
         {
           "file": ".gitignore",
-          "hash": "7663861978715868291"
+          "hash": "7182489769860773118"
         },
         {
           "file": "README.md",
-          "hash": "588016667791724291"
+          "hash": "3575855713192482062"
         },
         {
           "file": "jest.config.json",
@@ -20,7 +20,7 @@
         },
         {
           "file": "package.json",
-          "hash": "16610948958064484963",
+          "hash": "7482560751938022431",
           "deps": [
             "npm:@nx/jest",
             "npm:jest",
@@ -37,7 +37,7 @@
         },
         {
           "file": "src/sum.test.js",
-          "hash": "10612989431232184033"
+          "hash": "4212698982660617322"
         },
         {
           "file": "yarn.lock",

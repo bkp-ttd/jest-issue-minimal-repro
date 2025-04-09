@@ -12,7 +12,8 @@
         "metadata": {
           "targetGroups": {
             "NPM Scripts": [
-              "test_old"
+              "run_jest",
+              "run_nxjest"
             ]
           },
           "description": "",
@@ -23,14 +24,26 @@
           }
         },
         "targets": {
-          "test_old": {
+          "run_jest": {
             "executor": "nx:run-script",
             "options": {
-              "script": "test_old"
+              "script": "run_jest"
             },
             "metadata": {
-              "scriptContent": "jest --config=jest.config.json",
-              "runCommand": "yarn test_old"
+              "scriptContent": "jest",
+              "runCommand": "yarn run_jest"
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "run_nxjest": {
+            "executor": "nx:run-script",
+            "options": {
+              "script": "run_nxjest"
+            },
+            "metadata": {
+              "scriptContent": "nx test",
+              "runCommand": "yarn run_nxjest"
             },
             "configurations": {},
             "parallelism": true
@@ -10260,5 +10273,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1744232700983
+  "computedAt": 1744234040545
 }

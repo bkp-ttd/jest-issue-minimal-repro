@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --config=jest.config.json"
+    "run_jest": "jest",
+    "run_nxjest": "nx test"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "@nx/jest": "20.7.2"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "nx": "^20.7.2"
   }
 }

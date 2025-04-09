@@ -28,6 +28,10 @@
       "package.json",
       "nx/core/package-json"
     ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "package.json",
+      "nx/core/package-json"
+    ],
     "metadata.description": [
       "package.json",
       "nx/core/package-json"
@@ -52,31 +56,59 @@
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old": [
+    "targets.run_jest": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.executor": [
+    "targets.run_jest.executor": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.options": [
+    "targets.run_jest.options": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.metadata": [
+    "targets.run_jest.metadata": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.options.script": [
+    "targets.run_jest.options.script": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.metadata.scriptContent": [
+    "targets.run_jest.metadata.scriptContent": [
       "package.json",
       "nx/core/package-json"
     ],
-    "targets.test_old.metadata.runCommand": [
+    "targets.run_jest.metadata.runCommand": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.executor": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.options": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.metadata": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.options.script": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.metadata.scriptContent": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets.run_nxjest.metadata.runCommand": [
       "package.json",
       "nx/core/package-json"
     ],
