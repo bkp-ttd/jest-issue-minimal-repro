@@ -1,5 +1,5 @@
 {
     "reporters": [
-        ["default", {"summaryThreshold": 0}]
+        ["summary", {"summaryThreshold": 0}]
     ]
 }
